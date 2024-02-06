@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+#container{
+	width: 400px;
+	height: 590px;
+	border: 2px solid none;
+	border-radius: 10px;
+	background-color: #f1f1f1;
+		display: flex;
+	justify-content:center;
+	align-items:center;
+	box-shadow: 1px 1px 6px black;
+}
+
+#card>img{
+	width: 300px;
+	height: 250px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+#text{
+	text-align: center;
+	font-size: 20px;
+}
+
+#text>button{
+	margin-left: 150px;
+	border: 2px solid #fe625a;
+	background-color: #fe625a;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
